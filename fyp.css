@@ -1,0 +1,193 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 Apr, 2021, 11:14:28 PM
+    Author     : windows 10
+*/
+body{
+    max-width:1000px;
+    padding-top: 20px;
+    font-family: Roboto;
+    font-size: 15px;
+    link: {color:black;}
+}
+
+#login{ 
+    padding: 0px 10px 0px 10px;
+}
+
+.btn-primary{
+    color: black;
+}
+
+.form-body{
+    border-top: 1px solid #a4a4a4;
+    border-bottom: 1px solid #a4a4a4;
+    padding: 8px 0px 8px 0px;
+}
+
+.ss{
+    margin: 30px 0px 20px 90px;
+}
+
+.sl{
+    width: 150px;
+    padding: 5px 0px 5px 0px;
+}
+
+.hostel{
+    margin-top: 20px;
+    margin-left: -15%;
+    border: 1px solid;
+    padding: 10px 10px 8px 15px;
+    width: 100%;
+    height: 600px;
+}
+
+.ds{
+    margin-top: 20px;
+    margin-left: -15%;
+    border: 1px solid;
+    padding: 10px 10px 8px 15px;
+    width: 100%;
+    height: 280px;
+}
+
+.home{
+    margin-top: 20px;
+    margin-left: -13%;
+    border: 1px solid;
+    padding: 10px 10px 8px 15px;
+    width: 100%;
+    height: 810px;
+}
+
+.store{
+    margin-top: 20px;
+    margin-left: -13%;
+    border: 1px solid;
+    padding: 10px 10px 8px 15px;
+    width: 100%;
+    height: 480px;
+}
+
+.status{
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 1px solid;
+    padding: 10px 10px 8px 15px;
+    width: 60%;
+    height: 380px;
+}
+
+.SB{
+   padding-left: 50px; 
+}
+
+.B{
+    width: 30%;
+    margin-left: 200px;
+}
+
+.dropdown {
+    padding: 4px 0px 0px 5px;
+}
+
+.row{
+    height: 0px;
+}
+
+.RB {
+    display: none;
+}
+
+.label1, .label2{
+    display: block;
+    height: 180px;
+    width: 130px;
+    background: linear-gradient(
+        to bottom,
+        white 0, white 90px,
+        green 90px, green 180px,
+        );
+    position: absolute;
+    top: 0;
+    color: green;     
+}
+
+.label2{
+    right: 0;
+}
+
+.BI {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    left: 250px;
+}      
+ 
+.BI::before {
+        content: '';
+        position: absolute;
+        top: 20px;
+        right: 0px;
+        bottom: -200px;
+        left: 0px;
+        background-image: url(img/2.jfif);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        opacity: 0.2;
+    }
+
+.contentBI {
+   position: relative;
+   background-color: rgba(35, 185, 25, 0.2);
+   position: absolute;
+}
+
+.nb{
+    margin-top: -15px;
+    margin-left: 15px;
+}
+
+.lb{
+    margin-top: -33px;
+    text-decoration-style: none;
+}
+
+table {
+    border: 1px solid;
+    width: 100%;
+    margin-left: -15%;
+    padding-left: 20px;
+}
+
+.pd{
+    margin-left: -15%;
+}
+
+.pf {
+    border-collapse: collapse;
+    margin: 25px;
+    font-size: 0.9em;
+    min-width: 400px;
+}
+
+.nav{
+    width: 123%;
+    height: 40px;
+    margin-left: 10px;
+    background-color: rgba(35, 185, 25, 0.2);
+}
+
+@media (min-width: 320px){body {width: 320px;}}
+@media (min-width: 481px){body {width: 481px;}}
+@media (min-width: 641px){body {width: 641px;}}
+@media (min-width: 961px){body {width: 961px;}}
+@media (min-width: 1000px){body {width: 1000px;}}
+@media (max-width: 481px){body {text-align: center;}
+
+
